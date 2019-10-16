@@ -32,14 +32,14 @@ class AddPost extends React.Component {
         .then(function(response) {
           message = "Post successfully added";
           type = 1;
-          this.setState({
-            title: "",
-            body: ""
-          });
         })
         .catch(function(error) {
           message = "Something wrong happened";
         });
+      this.setState({
+        title: "",
+        body: ""
+      });
     } else {
       if (bodyCheck && titleCheck) {
         message = "Please insert valid title and text content";
