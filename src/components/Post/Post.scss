@@ -1,0 +1,19 @@
+.b-posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .b-post {
+    position: relative;
+    width: 46%;
+    img {
+      width: 25px;
+      position: absolute;
+      bottom: 5px;
+      right: 0px;
+    }
+  }
+}
+.b-post {
+  padding: 20px 0;
+  border-bottom: 1px solid #c8cfcc;
+}

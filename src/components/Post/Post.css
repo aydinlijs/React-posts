@@ -1,0 +1,28 @@
+.b-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.b-posts .b-post {
+  position: relative;
+  width: 46%;
+}
+
+.b-posts .b-post img {
+  width: 25px;
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+}
+
+.b-post {
+  padding: 20px 0;
+  border-bottom: 1px solid #c8cfcc;
+}
+/*# sourceMappingURL=Post.css.map */

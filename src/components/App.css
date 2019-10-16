@@ -1,0 +1,31 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  float: left;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  background-color: deepskyblue;
+  padding: 8px 25px;
+  border-radius: 4px;
+}
+
+li a:hover {
+  background-color: #0781a3;
+}
+.menu {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  height: 60px;
+}
+.content {
+  margin-top: 20px;
+}
