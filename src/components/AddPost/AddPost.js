@@ -35,6 +35,10 @@ class AddPost extends React.Component {
         })
         .catch(function(error) {
           message = "Something wrong happened";
+          this.setState({
+            title: "",
+            body: ""
+          });
         });
     } else {
       if (bodyCheck && titleCheck) {
@@ -47,8 +51,6 @@ class AddPost extends React.Component {
     }
     this.props.message(message, type);
     this.setState({
-      title: "",
-      body: "",
       loading: false
     });
   };
